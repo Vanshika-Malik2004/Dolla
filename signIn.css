@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Encode Sans Expanded", sans-serif;
+
+}
+body{
+    display:flex;
+    min-width:100vw;
+    min-height:100vh;
+    align-items:center;
+    justify-content:center;
+    background-color: rgb(1, 191, 113);
+}
+#dolla{
+    position:absolute;
+    font-weight: bold;
+    color: white;
+        font-size: 2.1rem;
+      left:30px;
+      top:50px;  
+}
+.container{
+   padding:60px 30px;
+    color:white;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:10px;
+}
+.container label{
+    font-size:0.9rem;
+}
+.container input{
+    width:300px;
+    height:50px;
+    margin:10px auto  30px auto;
+    border-radius:5px;
+    padding:20px;
+}
+.text{
+    margin:20px auto;
+}
+.container h2{
+margin:20px;
+}
+#continue{
+    width: 300px;
+        height: 50px;
+    background-color: rgb(1, 191, 113);
+    border-radius: 5px;
+    font-size:1rem;
+    color:white;
+
+}
+.container p{
+    margin:20px;
+    font-size:0.85rem;
+}
+
